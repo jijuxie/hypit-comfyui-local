@@ -1,0 +1,15 @@
+node_modules/
+hypit-source/
+.hypit/
+output/
+assets/private/
+*.local.json
+.env
+.env.*
+!.env.example
+*.log
+*.safetensors
+*.ckpt
+*.gguf
+__pycache__/
+.DS_Store

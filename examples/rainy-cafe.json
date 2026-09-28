@@ -1,0 +1,10 @@
+{
+  "id": "rainy-cafe",
+  "title": "雨夜的一杯温暖",
+  "width": 864,
+  "height": 480,
+  "duration": 5,
+  "steps": 8,
+  "seed": 20260928,
+  "prompt": "integrated_multimodal_description: [Shot 1] A single continuous cinematic close-up inside a quiet cafe on a rainy night. A handmade cream ceramic coffee cup rests on a dark walnut table beside a rain-streaked window. Warm amber pendant light illuminates gentle steam rising from the cup. Beyond the glass, soft teal and amber street lights reflect on wet pavement. Push In slowly with a shallow depth of field, realistic film photography, restrained warm color grading. At 00:02.000, one large raindrop slides down the glass behind the cup. The cup stays still. No people, no dialogue, no letters, no subtitles, no logos.\n\noverall_soundscape: Gentle continuous rain against the window, a distant soft city ambience, intimate and calm. No speech.\n\nnon_diegetic_music: A very quiet sparse warm piano phrase, two soft notes with a natural decay, underneath the rain."
+}

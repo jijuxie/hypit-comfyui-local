@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">Hypit × ComfyUI — Local video, editable by design</title>
+  <desc id="desc">A dark green project banner showing a three-stage pipeline: direct, generate, compose.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102824"/><stop offset="1" stop-color="#071513"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#9cf5bb"/><stop offset="1" stop-color="#e9ddac"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#bce4cb" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1280" height="440" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="440" rx="24" fill="url(#grid)"/>
+  <circle cx="1130" cy="40" r="250" fill="#86efac" opacity=".035"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="64" y="48" width="213" height="30" rx="15" fill="#b5f2c8" fill-opacity=".1" stroke="#b5f2c8" stroke-opacity=".3"/>
+    <text x="82" y="68" fill="#b5f2c8" font-size="12" letter-spacing="2">LOCAL VIDEO TOOLKIT</text>
+    <text x="60" y="158" fill="#f3f6ee" font-size="64" font-weight="700" letter-spacing="-2">Hypit × ComfyUI</text>
+    <text x="64" y="208" fill="#c2d2c9" font-size="26">Local video. Native sound. Editable composition.</text>
+    <text x="66" y="251" fill="#849f93" font-size="16">Powered by MiniMax H3 · A community integration</text>
+    <g transform="translate(64 306)">
+      <rect width="310" height="78" rx="14" fill="#142f28" stroke="#305247"/>
+      <text x="22" y="31" fill="#9de9b8" font-size="12" letter-spacing="2">01 / DIRECT</text>
+      <text x="22" y="58" fill="#eff6ee" font-size="20">A readable JSON brief</text>
+      <path d="M325 39h65m-8-7 8 7-8 7" stroke="#779888" stroke-width="2" fill="none"/>
+      <rect x="405" width="310" height="78" rx="14" fill="#142f28" stroke="#305247"/>
+      <text x="427" y="31" fill="#9de9b8" font-size="12" letter-spacing="2">02 / GENERATE</text>
+      <text x="427" y="58" fill="#eff6ee" font-size="20">Your GPU + ComfyUI</text>
+      <path d="M730 39h65m-8-7 8 7-8 7" stroke="#779888" stroke-width="2" fill="none"/>
+      <rect x="810" width="310" height="78" rx="14" fill="#142f28" stroke="#305247"/>
+      <text x="832" y="31" fill="#e9ddac" font-size="12" letter-spacing="2">03 / COMPOSE</text>
+      <text x="832" y="58" fill="#eff6ee" font-size="20">Hypit source → MP4</text>
+    </g>
+  </g>
+</svg>

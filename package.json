@@ -1,0 +1,23 @@
+{
+  "name": "hypit-comfyui-local",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local MiniMax H3 generation through ComfyUI, with editable Hypit video compositions.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.15.0"
+  },
+  "scripts": {
+    "doctor": "node bin/local-video.mjs doctor",
+    "demo": "node bin/local-video.mjs run examples/rainy-cafe.json",
+    "setup:hypit": "node bin/setup-hypit.mjs",
+    "render": "node bin/render-hypit.mjs",
+    "test": "node --test test/*.test.mjs",
+    "hypit": "hypit"
+  },
+  "devDependencies": {
+    "@hypit/hypit": "0.2.16",
+    "ffmpeg-static": "5.3.0",
+    "ffprobe-static": "3.1.0"
+  }
+}
